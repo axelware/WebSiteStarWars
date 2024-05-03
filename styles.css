@@ -1,0 +1,401 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffc107;
+}
+
+/* Films Section */
+.films {
+    padding: 50px 0;
+}
+
+.films h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.film-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.film {
+    width: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.film img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.footer p {
+    font-size: 14px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: transparent; /* Altere o fundo para transparente */
+    color: #ffc107;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #ffc107; /* Adicione uma borda amarela */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffc107; /* Adicione uma cor de fundo ao passar o mouse */
+    color: #000; /* Altere a cor do texto ao passar o mouse */
+}
+/* Estilos para a seção de contatos */
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-box label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #ffc107; /* Cor amarela para os rótulos */
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffc107; /* Bordas amarelas para os campos de entrada */
+    background-color: transparent; /* Fundo transparente */
+
+}
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color:  #ffc107;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Wallpaper Background */
+.wallpaper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('images/starwars.png'); /* Caminho para o wallpaper de fundo */
+    background-size: cover;
+    opacity: 0.3; /* Opacidade para não interferir com o conteúdo */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.footer p {
+    font-size: 14px;
+}
+/* Estilos para a seção "Sobre" */
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffc107; /* Cor amarela para o título */
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff; /* Cor branca para o texto */
+}
+
+/* Estilo para o rodapé */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff; /* Cor branca para o texto do rodapé */
+}
+/* Estilizando o Carrossel de Filmes */
+.film-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+.film-item {
+    flex: 0 0 auto;
+    width: 80%;
+    min-width: 300px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+}
+
+.film-title {
+    color: #ffc107; /* Cor amarela para o título */
+}
+
+/* Estilos para os Botões de Navegação com Tema Star Wars */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Fonte padrão com estilo moderno */
+}
+
+/* Estilo para o Botão "Anterior" */
+#prevButton {
+    background-color: #ECC94B; /* Amarelo semelhante ao sabre de luz */
+    color: #000; /* Cor do texto para contraste */
+}
+
+/* Estilo para o Botão "Próximo" */
+#nextButton {
+    background-color: #ffffff; /* Azul característico de Star Wars */
+    color: #030303; /* Cor do texto para contraste */
+}
+
+/* Efeito Hover nos Botões */
+button:hover {
+    opacity: 0.9; /* Reduz a opacidade ao passar o mouse */
+}
+
+/* Estilos para a Grade de Filmes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffc107; /* Cor amarela para os títulos */
+}
+
+.film-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.film-item {
+    text-align: center;
+}
+
+.film-title {
+    color: #fff; /* Cor branca para os títulos dos filmes */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para as Imagens dos Filmes */
+.film-item img {
+    width: 100%; /* Imagem ocupa 100% da largura do contêiner */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000; /* Azul característico de Star Wars */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffc107; /* Tom mais escuro ao passar o mouse */
+}
+/* Estilos para os links */
+a {
+    color: #ffd900; /* Amarelo para links */
+    text-decoration: none; /* Remover sublinhado padrão */
+    transition: color 0.3s ease; /* Suavizar transição de cor */
+}
+
+/* Estilizar hover para os links */
+a:hover {
+    color: #ecece2; /* Cinza mais escuro ao passar o mouse */
+}
