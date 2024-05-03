@@ -4,12 +4,12 @@ Este é um projeto de site para exibir informações sobre os filmes da saga Sta
 # Estrutura do Projeto
 O projeto é composto pelos seguintes arquivos e diretórios:
 
-index.html: Página inicial (home) do site.
-about.html: Página de informações sobre o projeto.
-films.html: Página que lista os filmes da saga Star Wars.
-contact.html: Página de contato.
-styles.css: Arquivo CSS para estilizar o layout do site.
-scripts.js: Arquivo JavaScript para funcionalidades adicionais (como navegação entre os filmes).
+• index.html: Página inicial (home) do site.
+• about.html: Página de informações sobre o projeto.
+• films.html: Página que lista os filmes da saga Star Wars.
+• contact.html: Página de contato.
+• styles.css: Arquivo CSS para estilizar o layout do site.
+• scripts.js: Arquivo JavaScript para funcionalidades adicionais (como navegação entre os filmes).
 O diretório images/ contém as imagens dos filmes utilizadas no site.
 
 # Funcionalidades
